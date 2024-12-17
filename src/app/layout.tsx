@@ -31,7 +31,7 @@ export default function RootLayout({
       {/* Use fonts as classes */}
       <body
         className={`${open_sans.variable} ${dm_sans.variable} font-sans
-      w-screen overflow-x-hidden
+      w-screen overflow-x-hidden scrollbar-thin containerAlt
       `}
       >
         <MyThemeContextProvider>{children}</MyThemeContextProvider>
