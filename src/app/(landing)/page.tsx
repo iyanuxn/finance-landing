@@ -10,12 +10,12 @@ import { GiStarShuriken } from "react-icons/gi";
 
 const page = () => {
   return (
-    <div className="mt-24 flex flex-col justify-center items-center text-black dark:text-white px-20">
+    <div className="py-28 flex flex-col justify-center items-center text-black px-20">
       <div className="w-full h-[80vh] bg-primary p-20 rounded-[3rem] flex items-center">
         {/* left */}
         <div className="flex flex-col gap-5 w-[45%]">
           {/* decorative was hard to keep positioned */}
-            {/* <Image alt="arrow1" src={Arrow1} className="absolute -bottom-4 w-[40%] -right-10" /> */}
+          {/* <Image alt="arrow1" src={Arrow1} className="absolute -bottom-4 w-[40%] -right-10" /> */}
           <div className="flex gap-2">
             <h1 className="text-7xl font-semibold tracking-tighter">
               Invest for the Future
@@ -26,7 +26,7 @@ const page = () => {
             Work with all the necessary information and tools to boost money
             flow from your capital investment using Profinance!
           </span>
-          <button className="btn bg-black text-white gap-2 border border-black dark:border-white hover:bg-white hover:text-black transition-all duration-300 ease-in-out">
+          <button className="btn bg-black text-white gap-2 border border-black hover:bg-white hover:text-black transition-all duration-300 ease-in-out">
             <FaApple className="text-sm" />
             Download App
           </button>

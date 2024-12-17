@@ -8,7 +8,7 @@ const Navbar = () => {
   const { isDarkTheme, toggleThemeHandler } = useContext(MyThemeContext);
 
   return (
-    <div className="w-full h-20 px-20 flex items-center justify-between">
+    <div className="w-full h-24 px-20 flex items-center justify-between">
       <Link className="w-1/3 flex" href="/">
         <div className="flex items-center justify-center relative isolation">
           <span className="font-bold text-xl tracking-tighter dark:text-white">
@@ -18,10 +18,30 @@ const Navbar = () => {
         </div>
       </Link>
       <div className="flex items-center gap-10 font-medium md:text-sm text-xs text-neutral-600 w-1/3 justify-center">
-        <Link className="dark:text-white" href="/">About Us</Link>
-        <Link className="dark:text-white" href="/">Catalog</Link>
-        <Link className="dark:text-white" href="/">Price</Link>
-        <Link className="dark:text-white" href="/">Help</Link>
+        <Link
+          className="dark:text-white hover:-translate-y-1 transition-all duration-300 ease-in-out"
+          href="/"
+        >
+          About Us
+        </Link>
+        <Link
+          className="dark:text-white hover:-translate-y-1 transition-all duration-300 ease-in-out"
+          href="/"
+        >
+          Catalog
+        </Link>
+        <Link
+          className="dark:text-white hover:-translate-y-1 transition-all duration-300 ease-in-out"
+          href="/"
+        >
+          Price
+        </Link>
+        <Link
+          className="dark:text-white hover:-translate-y-1 transition-all duration-300 ease-in-out"
+          href="/"
+        >
+          Help
+        </Link>
       </div>
       <div className="flex items-center gap-3 w-1/3 justify-end">
         <button

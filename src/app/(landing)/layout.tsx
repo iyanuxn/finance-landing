@@ -10,9 +10,11 @@ const layout = ({ children }: { children: React.ReactNode }) => {
 
   return (
     <div
-      className={`${isDarkTheme ? "dark bg-black" : "bg-white"}`}
+      className={`${
+        isDarkTheme ? "dark bg-black" : "bg-white"
+      } transition-all duration-300 ease-in-out`}
     >
-      <div className="fixed top-0 left-0 right-0 w-full">
+      <div className="fixed top-0 left-0 right-0 w-full bg-transparent">
         <Navbar />
       </div>
       {children}
