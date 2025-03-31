@@ -3,6 +3,7 @@
 import Advantages from "@/components/Advantages";
 import Hero from "@/components/Hero";
 import InvestmentFeatures from "@/components/InvestmentFeatures";
+import Partners from "@/components/Partners";
 
 const page = () => {
   return (
@@ -10,6 +11,7 @@ const page = () => {
       <Hero />
       <InvestmentFeatures />
       <Advantages />
+      <Partners />
     </div>
   );
 };

@@ -7,8 +7,8 @@ import { TbCoins } from "react-icons/tb";
 const Advantages = () => {
   return (
     <div className="flex gap-10 mt-40 w-full">
-      <div className="w-1/3 flex flex-col gap-3">
-        <h1 className="text-5xl font-semibold tracking-tighter dark:text-white">
+      <div className="w-1/3 flex flex-col gap-3 dark:text-white">
+        <h1 className="text-5xl font-semibold tracking-tighter">
           Advantages
         </h1>
         <span>
@@ -16,13 +16,13 @@ const Advantages = () => {
           experience of our platform
         </span>
       </div>
-      <div className="w-2/3 grid grid-cols-2">
+      <div className="w-2/3 grid grid-cols-2 ">
         <div className="flex flex-col p-10 justify-between gap-5 border-grey border-r-2 border-b-2">
           <div className="flex gap-3">
             <div className="w-10 h-10 shrink-0 bg-primary rounded-full flex items-center justify-center">
               <LuRocket />
             </div>
-            <div className="flex flex-col gap-1">
+            <div className="flex flex-col gap-1 dark:text-white">
               <span className="font-bold tracking-tighter">Smooth Start</span>
               <span className="opacity-50 font-medium tracking-tighter">
                 Without a visit to the office, we will set up a brokeage account
@@ -39,7 +39,7 @@ const Advantages = () => {
             <div className="w-10 h-10 shrink-0 bg-primary rounded-full flex items-center justify-center">
               <PiQuestionMarkBold />
             </div>
-            <div className="flex flex-col gap-1">
+            <div className="flex flex-col gap-1 dark:text-white">
               <span className="font-bold tracking-tighter">24/7 Support</span>
               <span className="opacity-50 font-medium tracking-tighter">
                 Our support team is always available to answer your questions
@@ -56,7 +56,7 @@ const Advantages = () => {
             <div className="w-10 h-10 shrink-0 bg-primary rounded-full flex items-center justify-center">
               <TbCoins />
             </div>
-            <div className="flex flex-col gap-1">
+            <div className="flex flex-col gap-1 dark:text-white">
               <span className="font-bold tracking-tighter">
                 Low Commissions
               </span>
@@ -75,7 +75,7 @@ const Advantages = () => {
             <div className="w-10 h-10 shrink-0 bg-primary rounded-full flex items-center justify-center">
               <IoCheckmarkDoneOutline />
             </div>
-            <div className="flex flex-col gap-1">
+            <div className="flex flex-col gap-1 dark:text-white">
               <span className="font-bold tracking-tighter">
                 Invest Any Amount
               </span>
