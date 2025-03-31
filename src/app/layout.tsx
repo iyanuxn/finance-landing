@@ -17,7 +17,7 @@ const dm_sans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Iyanuxn's Next App",
+  title: "Profinance",
   description: "The beginning of something spectacular",
 };
 

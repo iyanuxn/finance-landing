@@ -8,7 +8,7 @@ const Navbar = () => {
   const { isDarkTheme, toggleThemeHandler } = useContext(MyThemeContext);
 
   return (
-    <div className="w-full h-24 px-20 flex items-center justify-between">
+    <div  className="w-full h-24 px-20 flex items-center justify-between">
       <Link className="w-1/3 flex" href="/">
         <div className="flex items-center justify-center relative isolation">
           <span className="font-bold text-xl tracking-tighter dark:text-white">

@@ -14,7 +14,7 @@ const layout = ({ children }: { children: React.ReactNode }) => {
         isDarkTheme ? "dark bg-black" : "bg-white"
       } transition-all duration-300 ease-in-out`}
     >
-      <div className="fixed top-0 left-0 right-0 w-full bg-transparent">
+      <div className="fixed top-0 left-0 right-0 w-full bg-transparent z-[1000]">
         <Navbar />
       </div>
       {children}
