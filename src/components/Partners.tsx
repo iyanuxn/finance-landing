@@ -23,7 +23,7 @@ const partners = [
 const Partners = () => {
   return (
     <div className="flex gap-10 mt-40 flex-col items-center w-full">
-      <div className="flex flex-col gap-5 w-full items-center">
+      <div className="flex flex-col gap-5 w-full items-center dark:text-white">
         <h1 className="text-5xl font-semibold tracking-tighter">
           Our Partners
         </h1>

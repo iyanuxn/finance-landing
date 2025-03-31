@@ -17,7 +17,7 @@ const Advantages = () => {
         </span>
       </div>
       <div className="w-2/3 grid grid-cols-2 ">
-        <div className="flex flex-col p-10 justify-between gap-5 border-grey border-r-2 border-b-2">
+        <div className="flex flex-col p-10 justify-between gap-5 border-grey dark:border-grey/30 border-r-2 border-b-2">
           <div className="flex gap-3">
             <div className="w-10 h-10 shrink-0 bg-primary rounded-full flex items-center justify-center">
               <LuRocket />
@@ -34,7 +34,7 @@ const Advantages = () => {
             Open an Account
           </button>
         </div>
-        <div className="flex flex-col p-10 justify-between gap-5 border-grey border-b-2">
+        <div className="flex flex-col p-10 justify-between gap-5 border-grey dark:border-grey/30 border-b-2">
           <div className="flex gap-3">
             <div className="w-10 h-10 shrink-0 bg-primary rounded-full flex items-center justify-center">
               <PiQuestionMarkBold />
@@ -51,7 +51,7 @@ const Advantages = () => {
             Ask a Question
           </button>
         </div>
-        <div className="flex flex-col p-10 justify-between gap-5 border-grey border-r-2">
+        <div className="flex flex-col p-10 justify-between gap-5 border-grey dark:border-grey/30 border-r-2">
           <div className="flex gap-3">
             <div className="w-10 h-10 shrink-0 bg-primary rounded-full flex items-center justify-center">
               <TbCoins />
