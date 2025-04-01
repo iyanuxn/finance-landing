@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="flex justify-between items-center gap-10 mt-40 w-full px-40 py-20 bg-black text-white border-t border-black dark:border-white/10">
+    <div className="flex justify-between items-center gap-10 mt-20 w-full px-40 py-20 bg-black text-white border-t border-black dark:border-white/10">
       <Link className="w-1/3 flex" href="/">
         <div className="flex items-center justify-center relative isolation">
           <span className="font-bold text-xl tracking-tighter">
