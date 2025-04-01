@@ -1,8 +1,10 @@
 "use client";
 
 import Advantages from "@/components/Advantages";
+import Cta from "@/components/Cta";
 import Hero from "@/components/Hero";
 import InvestmentFeatures from "@/components/InvestmentFeatures";
+import MiscFeatures from "@/components/MiscFeatures";
 import Partners from "@/components/Partners";
 
 const page = () => {
@@ -12,6 +14,8 @@ const page = () => {
       <InvestmentFeatures />
       <Advantages />
       <Partners />
+      <Cta />
+      <MiscFeatures />
     </div>
   );
 };

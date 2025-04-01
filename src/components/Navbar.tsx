@@ -64,7 +64,7 @@ const Navbar = () => {
           />
         </button>
         <button className="btn bg-grey  md:text-xs">Log In</button>
-        <button className="btn bg-black text-white md:text-xs gap-2 border border-black dark:border-white hover:bg-white hover:text-black transition-all duration-300 ease-in-out">
+        <button className="btn bg-black text-white md:text-xs gap-2 border border-black dark:border-white/10 hover:bg-white hover:text-black transition-all duration-300 ease-in-out">
           <FaApple className="text-sm" />
           Download App
         </button>
