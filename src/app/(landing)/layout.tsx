@@ -5,8 +5,15 @@ import React from "react";
 import { useContext } from "react";
 import MyThemeContext from "@/contexts/theme-context";
 import Footer from "@/components/Footer";
+import Lenis from "lenis";
+import "lenis/dist/lenis.css";
 
 const layout = ({ children }: { children: React.ReactNode }) => {
+  const lenis = new Lenis({ autoRaf: true });
+
+  lenis.on("scroll", (e) => {
+    console.log(e);
+  });
   const { isDarkTheme } = useContext(MyThemeContext);
 
   return (
@@ -19,7 +26,7 @@ const layout = ({ children }: { children: React.ReactNode }) => {
         <Navbar />
       </div>
       {children}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

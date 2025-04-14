@@ -39,9 +39,9 @@ const Footer = () => {
       <div className="flex flex-col justify-between">
         <form className="flex flex-col gap-1 font-semibold md:text-sm text-xs">
           <label>Subscribe to News</label>
-          <div className="p-1 pl-2 flex items-stretch gap-1 outline-none border border-white/20 focus:border-primary rounded-xl transition-all duration-300 ease-in-out">
+          <div className="p-1 pl-2 flex items-stretch gap-1 outline-none border border-white/20 focus-within:border-primary rounded-xl transition-all duration-300 ease-in-out">
             <input placeholder="Your e-mail" type="text" className="w-56 bg-transparent outline-none font-normal" />
-            <div className="h-10 w-10 bg-primary flex items-center justify-center rounded-xl p-3 text-black">
+            <div className="h-10 w-10 bg-primary flex items-center justify-center rounded-lg p-3 text-black">
               <TfiArrowRight className="w-full h-full object-cover" />
             </div>
           </div>

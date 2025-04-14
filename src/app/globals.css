@@ -4,7 +4,7 @@
 
 @layer base {
   .btn {
-    @apply rounded-xl font-semibold tracking-tight text-xs md:text-sm px-5 py-2.5 text-center flex items-center justify-center w-fit;
+    @apply rounded-xl font-semibold tracking-tight text-xs md:text-sm px-5 py-2.5 text-center flex items-center justify-center w-fit bg-primary;
   }
 }
 

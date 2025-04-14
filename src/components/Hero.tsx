@@ -7,13 +7,13 @@ import { GiStarShuriken } from "react-icons/gi";
 
 const Hero = () => {
   return (
-    <div className="w-full h-[80vh] bg-primary p-20 rounded-[3rem] flex items-center">
+    <div className="w-full 2xl:h-[50rem] md:h-[80vh] bg-primary md:p-20 p-5 rounded-[3rem] flex items-center">
     {/* left */}
     <div className="flex flex-col gap-5 w-[45%]">
       {/* decorative was hard to keep positioned */}
       {/* <Image alt="arrow1" src={Arrow1} className="absolute -bottom-4 w-[40%] -right-10" /> */}
       <div className="flex gap-2">
-        <h1 className="text-7xl font-semibold tracking-tighter">
+        <h1 className="md:text-7xl text-xl font-semibold tracking-tighter">
           Invest for the Future
         </h1>
         <GiStarShuriken className="text-8xl text-black" />
@@ -36,12 +36,12 @@ const Hero = () => {
       <Image
         src={Hero1}
         alt="hero1"
-        className="w-[45%] absolute z-20 right-64 -top-64 -rotate-6 shadow-2xl rounded-3xl"
+        className="2xl:w-[40%] md:w-[45%] absolute z-20 right-64 2xl:-top-96 md:-top-64 -rotate-6 shadow-2xl rounded-3xl"
       />
       <Image
         src={Hero2}
         alt="hero2"
-        className="w-[45%] absolute z-10 right-0 -top-48 rotate-6 shadow-2xl rounded-3xl"
+        className="2xl:w-[40%] md:w-[45%] absolute z-10 right-0 2xl:-top-80 md:-top-48 rotate-6 shadow-2xl rounded-3xl"
       />
     </div>
   </div>  )

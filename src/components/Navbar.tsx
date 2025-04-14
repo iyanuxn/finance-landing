@@ -2,13 +2,14 @@ import MyThemeContext from "@/contexts/theme-context";
 import Link from "next/link";
 import { useContext } from "react";
 import { FaApple } from "react-icons/fa6";
+import { HiMenuAlt3 } from "react-icons/hi";
 import { WiDaySunny, WiMoonAltWaningGibbous4 } from "react-icons/wi";
 
 const Navbar = () => {
   const { isDarkTheme, toggleThemeHandler } = useContext(MyThemeContext);
 
   return (
-    <div  className="w-full h-24 px-20 flex items-center justify-between">
+    <div className="w-full h-24 md:px-20 px-5 flex items-center justify-between containerAlt">
       <Link className="w-1/3 flex" href="/">
         <div className="flex items-center justify-center relative isolation">
           <span className="font-bold text-xl tracking-tighter dark:text-white">
@@ -17,7 +18,7 @@ const Navbar = () => {
           <div className="w-9 h-9 absolute -z-10 -right-3 bg-primary rounded-full dark:mix-blend-difference dark:z-10"></div>
         </div>
       </Link>
-      <div className="flex items-center gap-10 font-medium md:text-sm text-xs text-neutral-600 w-1/3 justify-center">
+      <div className="md:flex hidden items-center gap-10 font-medium md:text-sm text-xs text-neutral-600 w-1/3 justify-center">
         <Link
           className="dark:text-white hover:-translate-y-1 transition-all duration-300 ease-in-out"
           href="/"
@@ -43,7 +44,7 @@ const Navbar = () => {
           Help
         </Link>
       </div>
-      <div className="flex items-center gap-3 w-1/3 justify-end">
+      <div className="md:flex hidden items-center gap-3 w-1/3 justify-end">
         <button
           className="dark:bg-white dark:text-black bg-black text-white h-8 w-8 rounded-full flex flex-col items-center justify-center text-lg"
           onClick={toggleThemeHandler}
@@ -63,11 +64,16 @@ const Navbar = () => {
             } transition-all duration-300 ease-in-out`}
           />
         </button>
-        <Link href={"/login"} className="btn bg-grey  md:text-xs">Log In</Link>
+        <Link href={"/login"} className="btn bg-grey  md:text-xs">
+          Log In
+        </Link>
         <button className="btn bg-black text-white md:text-xs gap-2 border border-black dark:border-white/10 hover:bg-white hover:text-black transition-all duration-300 ease-in-out">
           <FaApple className="text-sm" />
           Download App
         </button>
+      </div>
+      <div className="md:hidden flex items-center gap-3 w-1/3 justify-end">
+        <HiMenuAlt3 />
       </div>
     </div>
   );
